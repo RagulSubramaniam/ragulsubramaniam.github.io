@@ -1,67 +1,133 @@
 <html>
     <head>
-        <title>RAGUL S</title>
         <style>
-        body
-        {
-            background-color: rgb(0, 0, 0)
-        }
-        .header1
-        {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            height: 100%;
-            color: white;
-            font-family:Arial, Helvetica, sans-serif;
-                
-        }
-        h1 span
-        {
-            display:inline-block;
-            animation: animate-text 1s ease-out forwards;
-        }
-        .click-here-button 
-        {
-            position: absolute;
-            bottom: 10px;
-            right: 10px;
-            padding: 8px 16px;
-            font-size: 15px;
-            border-radius: 30px;
-            font-family:Arial, Helvetica, sans-serif;
-            font-weight: bolder;
-        }
-        .a1
-        {
-            text-decoration: none;
-            color: black;
-        }
-        .a1:hover 
-        {
-            color: red;
-            display:flex;
-            animation: animate-text 0.3s ease-out forwards;
-        }
-        @keyframes animate-text 
-        {
-            0% 
+            body
             {
-                opacity: 0;
+                background-color: black;
             }
-            100% 
+            
+            .navbar     
             {
-                opacity: 1;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-color: rgb(0, 0, 0);
+                color: #fff;
+                font-size: 20px;
+                font-weight: bold;
+                font-family: Arial, Helvetica, sans-serif;
+                padding: 10px;
             }
-        }
+            .navbar a 
+            {
+                color: #fff;
+                text-decoration: none;
+                margin-right: 20px;
+            }
+
+            .navbar a:hover 
+            {
+                color: red;
+            }
+            a
+            {
+                text-decoration: none;
+                color: black;
+            }
+            .div2
+            {
+                width: 100%;
+            }
+            .div2 img
+            {
+                width: 280px;
+                height: 280px;
+                margin: 10px;
+                padding: 110px;
+                border-radius: 24.5%;
+            }
+            .home
+            {
+                width: 100%;
+            }
+            .home1    
+            {
+                animation: show-letters 70s backwards;
+            }
+
+            @keyframes show-letters 
+            {
+                0% 
+                {
+                    visibility: hidden;
+                }
+                2% 
+                {
+                    visibility: visible;
+                    color: transparent;
+                }       
+                3% 
+                {
+                    color: rgb(255, 255, 255);
+                }
+                100% 
+                {
+                    color: rgb(255, 255, 255);
+                }
+            }
+
+            .home1
+            {
+                color: white;
+                font-family: Arial, Helvetica, sans-serif;
+                font-weight: bold;
+                display: grid;
+                letter-spacing: 2px;
+                display: flex;
+                align-items: center;
+                text-align: center;
+            }
+            .div3
+            {
+                background-color:white;
+                color:black;
+                font-family:Arial, Helvetica, sans-serif;
+                text-align:center;
+                width:100%;
+            }
+            .div3 span
+            {
+                color:red;
+            }
+            html 
+            {
+                scroll-behavior: smooth;
+            }
+            
         </style>
+        
     </head>
     <body>
-        <div class="header1">
-            <div class="header2">
-                <h1>I&nbsp;&nbsp;AM&nbsp;&nbsp;<span style="color:red; font-size:45px;">R</span>AGUL</h1>
-            </div>
+        <div class="div1">
+        </br>
+            <nav class="navbar">
+                <a href="index.html">Home</a>
+                <a href="project.html">Project</a>
+                <a href="#skill">Skill</a>
+                <a href="#about">About</a>
+              </nav>
         </div>
-        <button class="click-here-button"><a href="homepage.html" class="a1">Click Here</a></button>
+        <div class="div2">
+            <section id="home">
+                <div class="home1">
+                    <img src="image/profile.jpg">
+                    <p style="font-size:40px">Hi,</p>
+                &nbsp;
+                    <h1><span style="color:red; font-size:45px;">R</span>AGUL<span style="color: red;">&nbsp;S</span></h1>
+                    <h2></br></br></br></br>~ Web<span style="color:red; font-size:30px;">D</span>esigner & <span style="color: red; font-size: 30px;">D</span>evelopment</h2>
+                </div></hr>
+            </section>
+        </div>
+        
     </body>
 </html>
