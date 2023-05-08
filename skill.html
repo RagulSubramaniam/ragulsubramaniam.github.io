@@ -41,19 +41,32 @@
 			    margin: 0;
 			    padding: 0;
             }
-            .tech-img {
-                display:block;
-                margin: 10px;
-                text-align: center;
+            .center 
+            {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-wrap: wrap;
             }
-            .tech-img img {
+
+            .tech-img 
+            {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                margin: 10px;
+            }
+
+            .tech-img img 
+            {
                 width: 150px;
-                height: 155px;
+                height: 150px;
                 object-fit: cover;
                 border-radius: 10%;
                 box-shadow: 0 2px 4px rgba(255, 255, 255, 0.3);
                 transition: transform 0.3s ease-in-out;
             }
+
             .tech-img img:hover {
                 transform: scale(1.1);
             }
@@ -86,7 +99,7 @@
                 <a href="about.html">About</a>
               </nav>
         </div>
-        <br><br>
+        <br><br><br><br><br><br><br><br>
         <div class="center">
             <div class="tech-img">
                 <img src="image/c.png" alt="C">
