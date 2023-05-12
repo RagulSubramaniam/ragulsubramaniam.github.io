@@ -316,5 +316,13 @@
     </div>    
   </div>
 
+  <script>
+    const resumeLink = document.getElementById('resume-link');
+    resumeLink.addEventListener('click', (event) => {
+    event.preventDefault(); // Prevent the link from navigating to a new page
+    const pdfUrl = 'Ragul.pdf';
+        window.open(pdfUrl, '_blank', 'height=600,width=800');
+    });
+</script>
 </body>
 </html>
