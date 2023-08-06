@@ -1,0 +1,647 @@
+body 
+{
+    background-color: black;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.sec
+{
+    width: 100%;
+    height: 100%;
+}
+.sec .navbar 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 15px;
+    margin-left: 38%;
+    z-index: 999;
+}
+
+.sec .navbar a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+
+.navbar a:hover {
+    color: red;
+}
+
+.sec a {
+    text-decoration: none;
+    color: black;
+}
+
+.sec .hidden {
+    display: none;
+}
+
+.sec #showButton {
+    margin-left: auto;
+    padding: 2px;
+    border-radius: 30%;
+    border: none;
+    width: 42px;
+    text-align: center;
+    height: 38px;
+}
+
+.sec .navbar .hidden {
+    margin-right: 20px;
+    transition: transform 5.3s ease;
+}
+
+.sec .navbar .hidden:not(.hidden) {
+    display: inline-block;
+    transform: translateX(-100%);
+}
+
+.menu-icon-container {
+  border-radius: 50%;
+  margin: 1;
+  margin-left: 1px;
+  margin-right: 10px;
+  width: 25px;
+  height: 33px;
+}
+
+.sec .line {
+    width: 20px;
+    height: 2px;
+    background-color: #000000;
+    margin: 4px;
+    margin-left: 6px;
+    margin-right: 5px;
+    padding: 2px 2px;
+    transition: 0.2s;
+}
+.line:hover
+{
+    background-color: red;
+}
+
+
+/*---------------------Section 1 start-----------------------*/
+#mainDiv 
+{
+    display: flex; 
+    justify-content: space-between;
+    color: #ffffff;
+    padding: 3px;
+}
+.subSection1 
+{
+    flex: 1;
+    margin: 6px;
+    padding: 10px;
+}
+img
+{
+    width: 280px;
+    height: 280px;
+    margin: 10px;
+    padding: 110px;
+    margin-left: 24%;
+    border-radius: 24.5%;
+}
+.subSection2 
+{
+    flex: 1;
+    margin: 0px;
+    padding: 5px;
+}
+.subSection2
+{
+    margin-top: 14%;
+}
+.subSection2 span
+{
+    color: red;
+    font-size: 40px;
+}
+.subsec1 p
+{
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 30px;
+    letter-spacing: 2px;
+}
+.subsec2 p
+{
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 25px;
+    letter-spacing: 2px;
+}
+
+/*---------------------Section 1 end-----------------------*/
+
+
+
+/*---------------------Section 2 start-----------------------*/
+
+
+.sec2
+{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}
+
+
+/*---------------------Section 2 end-----------------------*/
+
+
+/* Media for mobile*/
+
+@media screen and (max-width: 768px) 
+{
+    .sec
+    {
+        width: 100%;
+        height: 100%;
+        margin: 5px;
+    }
+    .sec .navbar 
+    {
+        display: flex;
+        background-color: rgb(0, 0, 0);
+        color: #fff;
+        font-size: 15px;
+        padding: 10px;
+        margin: 0;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;   
+    }    
+    .navbar a
+    {
+        margin: 0 0px;
+    }
+    .line {
+        width: 15px;
+        height: 2.5px;
+        background-color: #000000;
+        margin: 2px;
+        transition: 0.2s;
+    }
+   #mainDiv
+   {
+        display: flex;
+        flex-direction: column;
+   }
+   .subSection1
+   {
+        flex: 1;
+   }
+   img
+   {
+        width: 180px;
+        height: 170px;
+        padding: 0;
+        margin-left: 55px;
+        align-items: center;
+        border-radius: 10%;
+   }
+    .subSection2
+    {
+        padding: 0;
+        margin: 0;
+    }
+   .subsec1 p
+    {
+        margin-top: 0;
+        font-family:Arial, Helvetica, sans-serif;
+        font-weight: bolder;
+        font-size: 20px;
+        letter-spacing: 1.5px;
+        text-align: center;
+    }
+    .subsec2 p
+    {
+        font-family:Arial, Helvetica, sans-serif;
+        font-weight: bolder;
+        font-size: 15px;
+        letter-spacing: 2px;
+        text-align:center;
+    }
+    .subSection2 span
+    {
+        color: red;
+        font-size: 30px;
+    }
+}
+
+
+
+
+body
+{
+  padding: 0;
+  margin: 0;
+}
+.project
+{
+  margin: 10px;
+  padding: 5px;
+}
+.project-heading
+{
+  padding: 30px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 25px;
+  font-weight: bolder;
+}
+span
+{
+  color: red;
+  font-size: 60px;
+}
+.project-heading
+{
+  overflow: hidden;
+}
+.pro-head-1
+{
+  float: left;
+  font-size: 40px;
+  margin: 0;
+}
+.pro-head-2
+{
+  padding: 20px;
+  margin: 10;
+  padding-left: 30px;
+  font-size: 40px;
+}
+.job-container 
+{
+  display: flex;
+}
+
+.job-card 
+{
+  width: 100%;
+  height: 100%;
+}
+.job-card h3
+{
+  margin-left: 10%;
+  font-size: 25px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.job-card p
+{
+  margin-left: 10%;
+  margin-right: 15%;
+  line-height: 30px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-indent: 10%;
+  text-align: justify;
+}
+.pagination 
+{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.sec2 .pagination 
+{
+  position: absolute;
+  top: 110%;
+  right: 20px;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor:auto;
+}
+.prev-btn 
+{
+  font-size: 20px;
+  padding: 10px 10px;
+  background-color: #000000;
+  color: white;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  font-weight: bolder; 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.2s;
+}
+.next-btn 
+{
+  font-size: 20px;
+  padding: 10px 10px;
+  background-color: #000000;
+  color: white;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  font-weight: bolder; 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.2s;
+}
+@media screen and (max-width:720px)
+{
+  body
+  {
+    margin: 0;
+  }
+  span
+  {
+    font-size: 30px;
+  }
+  .project-heading
+  {
+    margin: 0;
+    padding: 15px;
+    margin-top: 20px;
+  }
+  .pro-head-1
+  {
+    font-size: 27px;
+  }
+  .pro-head-2
+  {
+    margin: 3;
+    padding: 5px;
+    text-indent: 1%;
+    font-size: 25px;
+  }
+  .job-card
+  {
+    width: 100%;
+    padding: 5px;
+    margin: 0px;
+  }
+  .job-card h3
+  {
+    text-align:center;
+    line-height: 30px;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 20px;
+  }
+  .job-card p
+  {
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 15px;
+  }
+  .sec2 .pagination
+  {
+    position: absolute;
+    top: 95%;
+    right: 10px;
+    color: white;
+    padding: 10px 10px;
+    border: none;
+    cursor:auto;
+    margin: 1;
+  }
+  .prev-btn 
+  {
+    margin: 0;
+    bottom: 10;
+    font-size: 10px;
+    padding: 10px 10px;
+  }
+  .next-btn 
+  {
+    margin: 0;
+    top:10;
+    font-size: 10px;
+    padding: 10px 10px;
+  }
+}
+
+/* ---------------------Section 3 starts----------------------*/
+    .sec3 
+    {
+      max-width: 50rem;
+      margin: auto;
+      text-align: center;
+      margin-top: 2.5rem;
+    }
+    .skill-header 
+    {
+      font-size: 35px;
+      letter-spacing: 2px;
+      color: white;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .skill-header span
+    {
+      color: red;
+      font-size: 50px;
+    }
+    .skills-wrapper img 
+    {
+      border-radius: 30%;
+      padding: 0.8rem;
+    }
+
+    .icon {
+      width: 150px;
+      height: 150px;
+      transition: transform 0.5s;
+      margin: 0 auto;
+    }
+    
+    .icon:hover
+    {
+      transform: scale(1.1);
+    }
+    @media screen and (max-width:720px)
+    {
+      .skill-header
+      {
+        font-size: 30px;
+      }
+      .skill-header span
+      {
+        font-size: 40px;
+      }
+      .icon {
+        width: 110px;
+        height: 110px;
+        transition: transform 0.5s;
+        margin: 0 auto; 
+      }
+    }
+
+/* ----------------Section 4 starts-----------------*/
+
+
+        .about 
+      {
+          display: flex;
+          flex-direction: row;
+          height: 50%;
+      }
+
+      .left 
+      {
+          flex: 0.5;
+          background-color: white;
+      }
+
+      .about-content 
+      {
+          font-size: 25px;
+          letter-spacing: 5px;
+          font-weight: bolder;
+          font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+          color: black;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          height: 50vh;
+      }
+
+      .about-content span 
+      {
+        font-size: 55px;
+        color: red;
+      }
+
+      .right 
+      {
+          flex: 0.5; 
+          background-color: white;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+          align-items: center;
+      }
+
+      .explore-more
+      {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        flex-grow: 1;
+        text-decoration: none;
+      }
+      .explore-button 
+      {
+        border: none;
+        background: none;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        cursor: pointer;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        border: 2px solid black;
+        border-radius: 10px;
+        margin-top: 50%;
+        padding: 7px;
+      }
+      .explore-button a
+      {
+        text-decoration: none;
+        font-size: 25px;
+        color: black;
+      }
+      
+      .social-icons 
+      {
+        display: flex;
+        position: relative;
+        justify-content: center;
+        align-items: center;
+        font-size: 24px; 
+        gap: 35px; 
+        padding: 20px;
+      }
+      
+      .social-icons a 
+      {
+        color: black;
+        text-decoration: none;
+        transition: color 0.3s;
+      }
+      
+      .social-icons a:hover 
+      {
+        color: red;
+      }
+      
+      @media (max-width: 768px) 
+      {
+        .social-icons 
+        {
+          font-size: 20px;
+          gap: 10px;
+          padding: 10px;
+          position: absolute;
+          bottom: 0;
+          left: 50%;
+          transform: translateX(-50%);
+        }
+      }
+
+      @media (max-width: 768px) 
+      {     
+        .about 
+        {
+          flex-direction: column;
+        }
+        .right 
+        {
+          flex: 1;
+        }
+        .left 
+        {
+          flex: 0.5;
+          background-color: white;
+        }
+        .about-content 
+        {
+          font-size: 20px;
+          letter-spacing: 5px;
+          justify-content: center;
+          align-items: center;
+          height: 30vh;
+          color: black;
+          font-weight: bold;
+        }
+        .about-content span 
+        {
+          font-size: 30px;
+        }
+        .explore-button
+        {
+          margin-top: 20px;
+          font-size: 20px;
+        }
+
+        .explore-button a 
+        {
+          font-weight: bolder;
+          font-size: 15px;
+          color: black;
+        }
+        .social-icons 
+        {
+          gap: 30px;
+          height: 50px; 
+          position: relative; 
+          bottom: 0; 
+          left: 23%; 
+          transform: translateX(-50%); 
+        }
+      }
