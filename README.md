@@ -1,4 +1,4 @@
-<h2>Explore Portfolio - Ragul S</h2>
+<h2>Explore Portfolio - RAGUL S</h2>
 <h3>https://ragulsubramaniam.github.io/</h3>
 
 <h3>Developed by - RAGUL SUBRAMANIAM</h3>
